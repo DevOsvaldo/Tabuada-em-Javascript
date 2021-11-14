@@ -2,7 +2,7 @@ function tabuada() {
     let num = document.getElementById('txtn')
     let tab = document.getElementById('seltab')
     if (num.value.length == 0) {
-        alert('Error, Digite um numero valido.') //Erro apenas se não inserir número.
+        alert('Error, Digite um numero valido.') //Erro apenas senão inserir número.
 
     } else {
         let n = Number(num.value) //Passando a String para Number
